@@ -98,4 +98,5 @@ public class Controller extends HttpServlet {
 		//redireciona para o endpoint main que chama contatos, atualizando a lista e trocando o post para get
 		response.sendRedirect("main");
 	}	
+	
 }
